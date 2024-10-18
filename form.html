@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- use post for sensitive data, get(faster) for normal operation, and for api two methods are used called  -->
+    <form action="https://www.google.com/search" method="post" target="_blank">
+        <label for="name">Name:</label> 
+        <input type="text" name="username" id="name" placeholder="Enter your name" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="userpassword" id="password" placeholder="Enter your password"><br>
+
+        <label for="email">Email:</label> 
+        <input type="email" name="useremail" id="email" placeholder="Enter your email"><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="dob" id="date"><br>
+
+        <label for="pic">pic:</label> 
+        <input type="file" name="userpic" id="pic"><br>
+        <!-- make sure the names for the male and female radio button name should be same ,
+        else both can be selected by the user. but we need only one value so name should be same -->
+        
+        <label for="">gender:</label> 
+        <label for="">male:</label>
+        <input type="radio" id="usergender" name="gender"  value="male">
+        <label for="">female:</label>
+        <input type="radio" id="usergender" name="gender" value="female"><br>
+
+
+        <label for="">submit:</label> 
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
